@@ -12,7 +12,7 @@ from datasets import Dataset
 import os
 os.environ["WANDB_DISABLED"] = "true"
 
-# Rest aof your imports
+# Rest of your imports
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trainer, TrainingArguments
 # ... rest of your code
 
